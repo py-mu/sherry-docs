@@ -7,9 +7,6 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </head>
 <body>
 <div id="app"></div>
@@ -21,24 +18,17 @@
         cornerExternalLinkTarget: '_self',
         mergeNavbar: true,
         repo: 'https://github.com/py-mu/sherry',
-        logo: 'img/icon.png',  // logo
+        logo: 'resource/image/icon.png',
         loadSidebar: true,
         subMaxLevel: 2,
         search: 'auto',
+        // relativePath: true,
+        noCompileLinks: ['/resource/*'],
     }
-    const gitlab = new Gitalk({
-        clientID: '7f484b564313fc2f50b4',
-        clientSecret: '7ed817b868ba9ce5fe26f0543d134c592a0fe145',
-        repo: 'easy-pyqt',
-        owner: 'py-mu',
-        admin: ['py-mu'],
-        distractionFreeMode: false
-    })
 </script>
 
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-python.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 </body>
 </html>

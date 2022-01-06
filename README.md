@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# sherry docs
 
-## Getting Started
+文档基于docsify构建，具体用法查阅[文档](https://docsify.js.org/)
 
-First, run the development server:
+# 目录结构
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    -sherry-docs                    # 项目根目录
+        |- pages                    # 文档页面
+            |- componet             # 组件文档
+            |- development          # 开 发文档
+            |- helper               # 使用文档
+            |- resource             # 资源文件夹
+            |- package              # 打包说明
+            |- theme                # 主题文档
+            - .nojekyll             # docsify github ignore
+            - _sidebar.md           # 文档导航栏
+            - index.html            # 启动页
+            - README.md             # 启动页文档内容
+        - package.json              # 默认webpage
+        - package-lock.json         # 默认webpage
+        - README.md                 # 项目描述文档
