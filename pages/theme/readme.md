@@ -1,7 +1,5 @@
 
-* 安装依赖
+# sherry 主题样式
 
-```shell
-pip install -r requirements.txt
-```
+
 
